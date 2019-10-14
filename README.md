@@ -22,4 +22,5 @@ docker run -d \
 * To monitor the logs of container in realtime `docker logs torrserver-amd64`
 
 ## Versions
++ **14.10.2019:** TorrServer ver. 1.1.75
 + **17.07.2019:** TorrServer ver. 1.1.69
