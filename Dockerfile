@@ -1,5 +1,6 @@
 FROM phusion/baseimage
 LABEL maintainer="Shadalik"
+$ git tag -l "1.1.75"
 
 # TorrServer version
 ENV TORRSERVER_VERSION="1.1.75"
