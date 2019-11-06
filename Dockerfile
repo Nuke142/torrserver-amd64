@@ -1,6 +1,6 @@
-FROM ubuntu:disco
+ARG BASE_IMAGE=ubuntu:18.04
+FROM $BASE_IMAGE
 LABEL maintainer="Shadalik"
-$ git tag -l "1.1.76"
 
 # TorrServer version
 ENV TORRSERVER_VERSION="1.1.76"
