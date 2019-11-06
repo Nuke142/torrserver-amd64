@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM ubuntu:disco
 LABEL maintainer="Shadalik"
 $ git tag -l "1.1.76"
 
