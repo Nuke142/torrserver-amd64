@@ -9,7 +9,7 @@ ENV TORRSERVER_ARCH="linux-amd64"
 ENV TORRSERVER_FILE="TorrServer-${TORRSERVER_ARCH}"
 
 # TorrServer release info
-ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/1.1.76_5/${TORRSERVER_FILE}"
+ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/latest/${TORRSERVER_FILE}"
 
 # TorrServer directory
 ENV TORRSERVER_DIR="/torrserver"
