@@ -1,5 +1,5 @@
 FROM phusion/baseimage
-LABEL maintainer="Shadalik"
+LABEL maintainer="Nuke"
 
 # TorrServer version
 ENV TORRSERVER_VERSION="1.1.76_5"
@@ -9,7 +9,7 @@ ENV TORRSERVER_ARCH="linux-amd64"
 ENV TORRSERVER_FILE="TorrServer-${TORRSERVER_ARCH}"
 
 # TorrServer release info
-ENV TORRSERVER_RELEASE="https://github.com/shadalik/torrserver-amd64/raw/master/${TORRSERVER_FILE}"
+ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/1.1.76_5/${TORRSERVER_FILE}"
 
 # TorrServer directory
 ENV TORRSERVER_DIR="/torrserver"
