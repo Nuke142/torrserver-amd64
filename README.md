@@ -8,7 +8,7 @@ docker run -d \
 	-v torrserver-data:/torrserver \
 	--restart always \
 	--name torrserver-amd64 \
-	choodique/torrserver-amd64
+	Nuke142/torrserver-amd64
 ```
 
 ## Parameters
