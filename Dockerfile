@@ -2,7 +2,7 @@ FROM phusion/baseimage
 LABEL maintainer="Nuke"
 
 # TorrServer version
-ENV TORRSERVER_VERSION="1.1.76_20"
+ENV TORRSERVER_VERSION="1.1.76_9"
 
 # TorrServer architecture
 ENV TORRSERVER_ARCH="linux-amd64"
