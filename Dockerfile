@@ -2,7 +2,7 @@ FROM phusion/baseimage
 LABEL maintainer="Nuke"
 
 # TorrServer version
-ENV TORRSERVER_VERSION="1.1.76_9"
+ENV TORRSERVER_VERSION="1.1.76_21"
 
 # TorrServer architecture
 ENV TORRSERVER_ARCH="linux-amd64"
@@ -15,7 +15,7 @@ ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/latest/$
 ENV TORRSERVER_DIR="/torrserver"
 
 # Torrserver UI port
-ENV TORRSERVER_PORT="8090"
+ENV TORRSERVER_PORT="8091"
 
 # Download TorrServer binaries
 RUN apt-get update && apt-get install -y wget \
