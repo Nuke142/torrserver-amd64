@@ -15,7 +15,7 @@ ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/latest/$
 ENV TORRSERVER_DIR="/torrserver"
 
 # Torrserver UI port
-ENV TORRSERVER_PORT="8091"
+ENV TORRSERVER_PORT="8090"
 
 # Download TorrServer binaries
 RUN apt-get update && apt-get install -y wget \
