@@ -6,7 +6,7 @@
 docker run -d \
 	-p 8090:8090 \
 	-v torrserver-data:/torrserver \
-	--restart always \
+	--restart unless-stopped \
 	--name torrserver-amd64 \
 	Nuke142/torrserver-amd64
 ```
