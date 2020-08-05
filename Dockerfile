@@ -2,14 +2,14 @@ FROM phusion/baseimage
 LABEL maintainer="Nuke"
 
 # TorrServer version
-ENV TORRSERVER_VERSION="1.1.77"
+ENV TORRSERVER_VERSION="1.1.76_24"
 
 # TorrServer architecture
 ENV TORRSERVER_ARCH="linux-amd64"
 ENV TORRSERVER_FILE="TorrServer-${TORRSERVER_ARCH}"
 
 # TorrServer release info
-ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/latest/${TORRSERVER_FILE}"
+ENV TORRSERVER_RELEASE="https://github.com/nuke142/torrserver-amd64/raw/temp/${TORRSERVER_FILE}"
 
 # TorrServer directory
 ENV TORRSERVER_DIR="/torrserver"
