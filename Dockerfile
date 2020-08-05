@@ -1,4 +1,4 @@
-FROM phusion/baseimage
+FROM phusion/baseimage:master-amd64
 LABEL maintainer="Nuke"
 
 # TorrServer version
