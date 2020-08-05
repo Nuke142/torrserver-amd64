@@ -1,5 +1,7 @@
 # TorrServer (by YouROK) Dockerfile
 
+v 1.1.77
+
 ## Usage
 
 ```
